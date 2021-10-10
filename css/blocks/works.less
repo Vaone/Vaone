@@ -1,0 +1,42 @@
+// main: ../style.less
+.works {
+    margin-bottom: 50px;
+}
+
+.works__nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 42px;
+    padding-bottom: 35px;
+}
+
+.works__link {
+    border: none;
+    background: @white;
+    
+    text-decoration: none;
+    color: @gray;
+    font-size: .93rem;
+    
+    cursor: pointer;
+    
+    &:focus {
+        outline: none;
+    }
+    
+    &:hover {
+        color: #2037b5;
+    }
+}
+    
+.works__link:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+.works__content {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 33.33333%;
+    flex-wrap: wrap;
+}

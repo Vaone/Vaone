@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title> Good Food </title>
+    <meta name="robots" content="noindex, nofollow"/>
+</head>
+
+<body>
+    <div class="btn__portfolioPage">
+        <img src="../../../images/arr.png" alt="">
+        <a href="../../../index.html" class="portfolioLink">Portfolio</a>
+    </div>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">Good Food</div>
+                <div class="tel tel--header"><a class="cnt cnt--header" href="tel:+11111111111"> +1(111) 111 11 11 </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link active" href="#" data-scroll="#intro">Главная</a>
+                    <a class="nav__link" href="#" data-scroll="#menu"> Меню</a>
+                    <a class="nav__link" id="allMenu"> Прайс-лист </a>
+                    <!-- <a class="nav__link" href="#" data-scroll="#about">О Нас</a> -->
+                    <a class="nav__link" href="#" data-scroll="#end">Контакты</a>
+                </nav>
+                <button class="nav-toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle__item">Menu
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__box">
+                <div class="intro__inner">
+                    <h1 class="intro__title"> Добро пожаловать!</h1>
+                    <h2 class="intro__sub">
+                        в .......
+                        <br>У нас вкусная и не дорогая еда,
+                        <br>Мы работаем с 9:00-16:30, обеды с 12:00.
+                        <br>Доставка с 12:00-20:00.
+                        <br>Стоимость доставки 100 р.<br>Заказ свыше 400 р. доставка бесплатно
+                    </h2>
+                    <div class="tel"><a class="cnt" href="tel:+11111111111"> Позвонить </a>
+
+                    </div>
+                    <div class="main__map">
+                        <img class="map__icon" src="assets/images/map.png" alt="">
+                        <h1 class="map__inner">
+                            <a href="https://yandex.ru/maps/?ll=26.969148%2C-62.192273&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D29.512%252C-79.475%26spn%3D360.000%252C21.871%26text%3DAntarctica&z=3.11" target="_blank">Показать на карте</a>
+                        </h1>
+                    </div><!-- map -->
+                </div><!-- Intro inner -->
+            </div><!-- introbox -->
+        </div><!-- container -->
+    </div>
+    <!-- Intro -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="modal" id="myModal">
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+
+            <div class="menu__header menu__header--m">
+                <h1 class="menu__title"> Menu </h1>
+            </div>
+            <div class="week__nav">
+                <div class="week1__nav" id="week1__nav">
+                    <button class="week__btn" id="btn__mon1"> Понедельник</button>
+                    <button class="week__btn" id="btn__tue1"> Вторник </button>
+                    <button class="week__btn" id="btn__wed1"> Среда </button>
+                    <button class="week__btn" id="btn__thu1"> Четверг </button>
+                    <button class="week__btn" id="btn__fri1"> Пятница </button>
+                </div>
+                <div class="week2__nav" id="week2__nav">
+                    <button class="week__btn" href="#" id="btn__mon2"> Понедельник </button>
+                    <button class="week__btn" href="#" id="btn__tue2"> Вторник </button>
+                    <button class="week__btn" href="#" id="btn__wed2"> Среда </button>
+                    <button class="week__btn" href="#" id="btn__thu2"> Четверг </button>
+                    <button class="week__btn" href="#" id="btn__fri2"> Пятница </button>
+                </div>
+            </div>
+            <div class="week-end" id="week-end">
+                <h3 class="dn dn--va">К сожалению в субботу и воскресенье мы не работаем.
+                    <br>Но вы можете ознакомиться с полным ассортиментом наших блюд.
+                </h3>
+                <!-- <h1 class="dn dn--va">Весь ассортимент:</h1> -->
+                <div class="va"> <img class="va" src="assets/images/allmenu2.jpg">
+                </div>
+            </div>
+            <div class="week1" id="week1">
+
+                <div class="day day--1" id="mon1">
+                    <h1 class="dn">Понедельник</h1>
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/shikis.jpg" alt="">
+                            <div class="dish__title"> Щи кислые </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/goroh.jpg" alt="">
+                            <div class="dish__title"> Суп гороховый </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные</div>
+                            <div class="dish__text"></div>
+                            <div class="price">80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulash.jpg" alt="">
+                            <div class="dish__title"> Гуляш из сердца </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/podjarkasvin.jpg" alt="">
+                            <div class="dish__title"> Поджарка свиная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurpechtom.jpg" alt="">
+                            <div class="dish__title"> Куриная печень томленая</div>
+                            <div class="dish__text"></div>
+                            <div class="price">90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurinayagrudkasvetch.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с ветчиной и сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svininapodsirom.jpg" alt="">
+                            <div class="dish__title"> Свинина под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bifshteks.jpg" alt="">
+                            <div class="dish__title"> Бифштекс </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                    </div><!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/zapechbedra.jpg" alt="">
+                            <div class="dish__title"> Бедра запеченные</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuringrudkavsuhar.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка в сухарях</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/mintaipodmarin.jpg" alt="">
+                            <div class="dish__title"> Минтай под маринадом</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jarkoeizindeyki.jpg" alt="">
+                            <div class="dish__title"> Жаркое из индейки</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макар оны</div>
+                            <div class="price">30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price">30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price">30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Пюре из картофеля</div>
+                            <div class="price">40 ₽ </div>
+                        </div>
+                        <!-- Menu body div -->
+                        <h2 class="menu__subtitle"> Салаты </h2>
+                        <div class="menu__body">
+                            <div class="dish"> <img class="menu__img" src="assets/images/vitaminka.jpg" alt="">
+                                <div class="dish__title"> Витаминка </div>
+                                <div class="dish__text"></div>
+                                <div class="price"> 40 ₽ </div>
+                            </div>
+                            <div class="dish">
+                                <img class="menu__img" src="assets/images/yaicosgorosh.jpg" alt="">
+                                <div class="dish__title"> Яйцо с горошком </div>
+                                <div class="dish__text"></div>
+                                <div class="price"> 30 ₽ </div>
+                            </div>
+                            <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                                <div class="dish__title"> Винегрет </div>
+                                <div class="dish__text"></div>
+                                <div class="price"> 50 ₽ </div>
+                            </div>
+                            <div class="dish"> <img class="menu__img" src="assets/images/cezar.jpg" alt="">
+                                <div class="dish__title"> Цезарь </div>
+                                <div class="dish__text"></div>
+                                <div class="price"> 70 ₽ </div>
+                            </div>
+                        </div>
+                        <!-- Menu body div -->
+                        <div class="menu__body">
+                            <div class="dish">
+                                <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                                <div class="dish__title"> Свекла с солёными огурцами </div>
+                                <div class="dish__text"></div>
+                                <div class="price"> 40 ₽ </div>
+                            </div>
+                        </div>
+                        <!-- Menu body div -->
+                    </div>
+                </div><!-- mon1 -->
+                <div class="day day--2" id="tue1">
+
+                    <h1 class="dn">Вторник</h1>
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/supkurslapsh.jpg" alt="">
+                            <div class="dish__title"> Суп куриный с лапшой </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/harcho.jpg" alt="">
+                            <div class="dish__title"> Харчо </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinvluksouse.jpg" alt="">
+                            <div class="dish__title"> Свинина в луковом соусе </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/azuizgov.jpg" alt="">
+                            <div class="dish__title"> Азу из говядины </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pechenpostrag.jpg" alt="">
+                            <div class="dish__title"> Печень по-строгановски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/tegteli.jpg" alt="">
+                            <div class="dish__title"> Тефтели </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svininapodsirovspomid.jpg" alt="">
+                            <div class="dish__title"> Свинина с луком и помидором под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsgrib.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с грибами под сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                    </div>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushazap.jpg" alt="">
+                            <div class="dish__title"> Горбуша запеченная</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinotbivvyaice.jpg" alt="">
+                            <div class="dish__title"> Свиная отбивная в яйце</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bifshteks.jpg" alt="">
+                            <div class="dish__title"> Бифштекс </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/plovizsvin.jpg" alt="">
+                            <div class="dish__title"> Плов из свинины</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svejiy.jpg" alt="">
+                            <div class="dish__title"> Овощной </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с майонезом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/olive.jpg" alt="">
+                            <div class="dish__title"> Оливье </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/salatizmorkovi.jpg" alt="">
+                            <div class="dish__title"> Морковный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- tue1 -->
+                <div class="day day--3" id="wed1">
+
+                    <h1 class="dn">Среда</h1>
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/shiizsvej.jpg" alt="">
+                            <div class="dish__title"> Щи из свежей капусты </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/supfas.jpg" alt="">
+                            <div class="dish__title"> Суп фасолевый </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/govschern.jpg" alt="">
+                            <div class="dish__title"> Говядина с черносливом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 140 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jelkur.jpg" alt="">
+                            <div class="dish__title"> Желудочки куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinpaprik.jpg" alt="">
+                            <div class="dish__title"> Свинина в соусе паприкаш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svingril.jpg" alt="">
+                            <div class="dish__title"> Стейк из свинины </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/lengolub.jpg" alt="">
+                            <div class="dish__title"> Ленивые голубцы </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/mintaipodsirom.jpg" alt="">
+                            <div class="dish__title"> Минтай под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/shashlik.jpg" alt="">
+                            <div class="dish__title"> Шашлык куриный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsovosh.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с овощами</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/pvolizindey.jpg" alt="">
+                            <div class="dish__title"> Плов из курицы</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/myasopofran.jpg" alt="">
+                            <div class="dish__title"> Мясо по-французски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/tushkapusta.jpg" alt="">
+                            <div class="dish__title"> Тушеная капуста </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/cezar.jpg" alt="">
+                            <div class="dish__title"> Цезарь </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/stolich.jpg" alt="">
+                            <div class="dish__title"> Столичный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с майонезом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/morskayakapusta.jpg" alt="">
+                            <div class="dish__title"> Морская капуста </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- wed1 -->
+                <div class="day day--4" id="thu1">
+
+                    <h1 class="dn">Четверг</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/supribniy.jpg" alt="">
+                            <div class="dish__title"> Суп рыбный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/rassolnik.jpg" alt="">
+                            <div class="dish__title"> Рассольник </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuricasovoshamiii.jpg" alt="">
+                            <div class="dish__title"> Курица с овощами </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulash.jpg" alt="">
+                            <div class="dish__title"> Гуляш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/podjarkasvin.jpg" alt="">
+                            <div class="dish__title"> Поджарка свиная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vatrujkamyasnaya.jpg" alt="">
+                            <div class="dish__title"> Ватрушка мясная</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/brizolkurgrud.jpg" alt="">
+                            <div class="dish__title"> Бризоль из куриной грудки </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudspomisirom.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка c помидором под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushapomoskovski.jpg" alt="">
+                            <div class="dish__title"> Горбуша по-московски</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jarkoeizindeyki.jpg" alt="">
+                            <div class="dish__title"> Жаркое из индейки</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurinayagrudkasvetch.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с ветчиной и сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ejiki.jpg" alt="">
+                            <div class="dish__title"> Ежики </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/vitaminka.jpg" alt="">
+                            <div class="dish__title"> Витаминка </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+
+                        <div class="dish"> <img class="menu__img" src="assets/images/salatribniy.jpg" alt="">
+                            <div class="dish__title"> Салат рыбный</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/grecheskiy.jpg" alt="">
+                            <div class="dish__title"> Греческий </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/olive.jpg" alt="">
+                            <div class="dish__title"> Морские камушки </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+
+                </div><!-- thu1 -->
+                <div class="day day--5" id="fri1">
+
+                    <h1 class="dn">Пятница</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/borsh.jpg" alt="">
+                            <div class="dish__title"> Борщ </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/rissupspotr.jpg" alt="">
+                            <div class="dish__title"> Рисовый суп с потрошками </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurpechtom.jpg" alt="">
+                            <div class="dish__title"> Печень куриная томленая </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/myasopogruz.jpg" alt="">
+                            <div class="dish__title"> Мясо по-грузински </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinvluksouse.jpg" alt="">
+                            <div class="dish__title"> Свинина в луковом соусе с томатом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/perecfarsh.jpg" alt="">
+                            <div class="dish__title"> Перец фаршированный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulashpovengeski.jpg" alt="">
+                            <div class="dish__title"> Гуляш по-венгерски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 170 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsovosh.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с овощами</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsverm.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с вермишелью </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bedranaparu.jpg" alt="">
+                            <div class="dish__title"> Бедро куриное на пару </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bifshteks.jpg" alt="">
+                            <div class="dish__title"> Бифштекс </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushazap.jpg" alt="">
+                            <div class="dish__title"> Горбуша запеченная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис </div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/perlovka.jpg" alt="">
+                            <div class="dish__title"> Перловка </div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/zdorovie.jpg" alt="">
+                            <div class="dish__title"> Здоровье </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svejiy.jpg" alt="">
+                            <div class="dish__title"> Овощной </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/cezar.jpg" alt="">
+                            <div class="dish__title"> Цезарь </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с майонезом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                </div> <!-- friday1 -->
+                <h2 class="menu__subtitle"> Выпечка </h2>
+                <div class="menu__body">
+                    <div class="dish">
+                        <img class="menu__img" src="assets/images/samsasmyasom.jpg" alt="">
+                        <div class="dish__title"> Самса с мясом </div>
+                        <div class="price"> 60 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/samsassirom.jpg" alt="">
+                        <div class="dish__title"> Самса с сыром </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/sosiskavteste.jpg" alt="">
+                        <div class="dish__title"> Сосиска в тесте </div>
+                        <div class="price"> 60 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/pirojokskapustoy.jpg" alt="">
+                        <div class="dish__title"> Пирожок с капустой </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div>
+                <!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish">
+                        <img class="menu__img" src="assets/images/pirojokslukyaico.jpg" alt="">
+                        <div class="dish__title"> Пирожок с зеленым луком и яйцом
+                        </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/vetchinaisir.jpg" alt="">
+                        <div class="dish__title"> Слойка с ветчиной и сыром </div>
+                        <div class="price"> 50 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/shtrudel.jpg" alt="">
+                        <div class="dish__title"> Штрудель яблочный </div>
+                        <div class="price"> 50 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/minipizza.jpg" alt="">
+                        <div class="dish__title"> Мини-пицца </div>
+                        <div class="price"> 70 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkastvorogom.jpg" alt="">
+                        <div class="dish__title"> Булочка с творогом </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasdjemom.jpg" alt="">
+                        <div class="dish__title"> Булочка с джемом </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasmakom.jpg" alt="">
+                        <div class="dish__title"> Булочка с маком </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasizum.jpg" alt="">
+                        <div class="dish__title"> Булочка с изюмом </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkassaharom.jpg" alt="">
+                        <div class="dish__title"> Булочка с сахаром </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkaskoricey.jpg" alt="">
+                        <div class="dish__title"> Булочка с корицей </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/sirnik.jpg" alt="">
+                        <div class="dish__title"> Сырники </div>
+                        <div class="price"> 30 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/kruasan.jpg" alt="">
+                        <div class="dish__title"> Круассаны со сгущенкой </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div>
+                <!-- Menu body div -->
+            </div>
+            <!-- 1st week -->
+
+            <div class="week2" id="week2">
+
+                <div class="day day--6" id="mon2">
+
+                    <h1 class="dn">Понедельник</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/shikis.jpg" alt="">
+                            <div class="dish__title"> Щи кислые </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/goroh.jpg" alt="">
+                            <div class="dish__title"> Суп гороховый </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinvluksouse.jpg" alt="">
+                            <div class="dish__title"> Свинина в луковом соусе </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulash.jpg" alt="">
+                            <div class="dish__title"> Гуляш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuricasovoshamiii.jpg" alt="">
+                            <div class="dish__title"> Курица с овощами </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/perecfarsh.jpg" alt="">
+                            <div class="dish__title"> Перец фаршированный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinpomos.jpg" alt="">
+                            <div class="dish__title"> Свинина по-московски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bitichkipodsir.jpg" alt="">
+                            <div class="dish__title"> Биточки под сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurinayagrudkasvetch.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с ветчиной и сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushapomoskovski.jpg" alt="">
+                            <div class="dish__title"> Горбуша по-московски</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jarkoeizindeyki.jpg" alt="">
+                            <div class="dish__title"> Жаркое из индейки</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuringrudkavyaice.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка в яйце</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/vitaminka.jpg" alt="">
+                            <div class="dish__title">Витаминка </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/yaicosgorosh.jpg" alt="">
+                            <div class="dish__title"> Яйцо с горошком </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/cezar.jpg" alt="">
+                            <div class="dish__title"> Цезарь </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с солеными огурцами </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- mon2 -->
+                <div class="day day--7" id="tue2">
+
+                    <h1 class="dn">Вторник</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/supkurslapsh.jpg" alt="">
+                            <div class="dish__title"> Суп куриный с лапшой </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/harcho.jpg" alt="">
+                            <div class="dish__title"> Харчо </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/oladyiruk.jpg" alt="">
+                            <div class="dish__title"> Оладьи из печени</div>
+                            <div class="dish__text"></div>
+                            <div class="price">100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulash.jpg" alt="">
+                            <div class="dish__title"> Гуляш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/podjarkasvin.jpg" alt="">
+                            <div class="dish__title"> Поджарка свиная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurpechtom.jpg" alt="">
+                            <div class="dish__title"> Куриная печень томленая </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/tegteli.jpg" alt="">
+                            <div class="dish__title"> Тефтели </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsgrib.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с грибами под сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svininapodsirovspomid.jpg" alt="">
+                            <div class="dish__title"> Свинина с помидором под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price">130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/zapechbedra.jpg" alt="">
+                            <div class="dish__title"> Бедра запеченные</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushazap.jpg" alt="">
+                            <div class="dish__title"> Горбуша запеченная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jarkoeizsvin.jpg" alt="">
+                            <div class="dish__title"> Жаркое из свинины</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svejiy.jpg" alt="">
+                            <div class="dish__title"> Овощной </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с майонезом </div>
+                            <div class="dish__text"></div>
+                            <div class="price">40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/stolich.jpg" alt="">
+                            <div class="dish__title"> Столичный</div>
+                            <div class="dish__text"></div>
+                            <div class="price">80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/salatizmorkovi.jpg" alt="">
+                            <div class="dish__title">Морковный</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- tue2 -->
+                <div class="day day--8" id="wed2">
+                    <h1 class="dn">Среда</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/shiizsvej.jpg" alt="">
+                            <div class="dish__title"> Щи из свежей капусты </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/supfas.jpg" alt="">
+                            <div class="dish__title"> Суп фасолевый </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuringrudkavyaice.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка в яйце</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/azuizgov.jpg" alt="">
+                            <div class="dish__title"> Азу из говядины </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/befstroganov.jpg" alt="">
+                            <div class="dish__title"> Бефстроганов </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 140 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jelkur.jpg" alt="">
+                            <div class="dish__title"> Желудочки куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/lengolub.jpg" alt="">
+                            <div class="dish__title"> Ленивые голубцы </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaronipoflotski.jpg" alt="">
+                            <div class="dish__title"> Макароны по-флотски</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/mintaivyaice.jpg" alt="">
+                            <div class="dish__title"> Минтай в яйце</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bifshteks.jpg" alt="">
+                            <div class="dish__title"> Бифштекс </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/pvolizindey.jpg" alt="">
+                            <div class="dish__title"> Плов из индейки</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/myasopofran.jpg" alt="">
+                            <div class="dish__title"> Мясо по-французски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/tushkapusta.jpg" alt="">
+                            <div class="dish__title"> Тушеная капуста </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Пюре из картофеля</div>
+                            <div class="price">40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kapustakvashsgoroh.jpg" alt="">
+                            <div class="dish__title"> Капуста квашеная с горошком </div>
+                            <div class="dish__text"></div>
+                            <div class="price">40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kraboviy.jpg" alt="">
+                            <div class="dish__title">Крабовый </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/olive.jpg" alt="">
+                            <div class="dish__title"> Оливье </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title">Свекла с майонезом </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- wed2 -->
+                <div class="day day--9" id="thu2">
+                    <h1 class="dn">Четверг</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/supribniy.jpg" alt="">
+                            <div class="dish__title"> Суп рыбный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/rassolnik.jpg" alt="">
+                            <div class="dish__title"> Рассольник </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuricavkarri.jpg" alt="">
+                            <div class="dish__title"> Курица в соусе карри</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/govschern.jpg" alt="">
+                            <div class="dish__title"> Говядина с черносливом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 140 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinpaprik.jpg" alt="">
+                            <div class="dish__title"> Свинина в соусе паприкаш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletiizind.jpg" alt="">
+                            <div class="dish__title"> Котлеты из индейки </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinslukpodsir.jpg" alt="">
+                            <div class="dish__title"> Свинина с луком помидором под сыром </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kurgrudsovosh.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка с овощами </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/bedraotvar.jpg" alt="">
+                            <div class="dish__title"> Бедра отварные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletiribnie.jpg" alt="">
+                            <div class="dish__title"> Котлеты рыбные</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/jarkoeizsvin.jpg" alt="">
+                            <div class="dish__title"> Жаркое из свинины</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svingril.jpg" alt="">
+                            <div class="dish__title"> Свинина гриль с овощами</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Картофельное пюре </div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/makaron.jpg" alt="">
+                            <div class="dish__title"> Макароны</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/vitaminka.jpg" alt="">
+                            <div class="dish__title"> Витаминка </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/mimoza.jpg" alt="">
+                            <div class="dish__title"> Мимоза </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/stolich.jpg" alt="">
+                            <div class="dish__title"> Столичный </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/cezarslosos.jpg" alt="">
+                            <div class="dish__title"> Цезарь с рыбой </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 90 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/grecheskiy.jpg" alt="">
+                            <div class="dish__title"> Греческий </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- thu2 -->
+                <div class="day day--10" id="fri2">
+                    <h1 class="dn">Пятница</h1>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Первые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/borsh.jpg" alt="">
+                            <div class="dish__title"> Борщ </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish">
+                            <img class="menu__img" src="assets/images/gribnoykremsup.jpg" alt="">
+                            <div class="dish__title"> Грибной крем суп </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Вторые блюда </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletidom.jpg" alt="">
+                            <div class="dish__title"> Котлеты домашние </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/kotletikur.jpg" alt="">
+                            <div class="dish__title"> Котлеты куриные </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 80 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/bitichkipodsir.jpg" alt="">
+                            <div class="dish__title"> Биточки под сыром</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gulash.jpg" alt="">
+                            <div class="dish__title"> Гуляш </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/podjarkasvin.jpg" alt="">
+                            <div class="dish__title"> Поджарка свиная </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/pechenpostrag.jpg" alt="">
+                            <div class="dish__title">Печень по-строгановски</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/gorbushazap.jpg" alt="">
+                            <div class="dish__title"> Горбуша запеченная</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 150 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/myasopofran.jpg" alt="">
+                            <div class="dish__title"> Мясо по-французски</div>
+                            <div class="dish__text"></div>
+                            <div class="price">130 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/kuringrudkavyaice.jpg" alt="">
+                            <div class="dish__title"> Куриная грудка в яйце</div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ejiki.jpg" alt="">
+                            <div class="dish__title"> Ежики </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 100 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/poelyaizkur.jpg" alt="">
+                            <div class="dish__title"> Паэлья из курицы </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 110 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svinpomos.jpg" alt="">
+                            <div class="dish__title"> Свинина по-московски </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 120 ₽ </div>
+                        </div>
+                    </div>
+                    <h2 class="menu__subtitle"> Гарниры </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/pure.jpg" alt="">
+                            <div class="dish__title"> Пюре из картофеля </div>
+                            <div class="price">40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/ris.jpg" alt="">
+                            <div class="dish__title"> Рис</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/grechka.jpg" alt="">
+                            <div class="dish__title"> Гречка</div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/perlovka.jpg" alt="">
+                            <div class="dish__title"> Перловка </div>
+                            <div class="price"> 30 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                    <h2 class="menu__subtitle"> Салаты </h2>
+                    <div class="menu__body">
+                        <div class="dish"> <img class="menu__img" src="assets/images/sveklasmayonez.jpg" alt="">
+                            <div class="dish__title"> Свекла с майонезом </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 40 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/svejiy.jpg" alt="">
+                            <div class="dish__title"> Овощной </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 60 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/olive.jpg" alt="">
+                            <div class="dish__title"> Оливье </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 70 ₽ </div>
+                        </div>
+                        <div class="dish"> <img class="menu__img" src="assets/images/vinegret.jpg" alt="">
+                            <div class="dish__title"> Винегрет </div>
+                            <div class="dish__text"></div>
+                            <div class="price"> 50 ₽ </div>
+                        </div>
+                    </div>
+                    <!-- Menu body div -->
+                </div><!-- friday2 -->
+
+
+                <h2 class="menu__subtitle"> Выпечка </h2>
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/samsasmyasom.jpg" alt="">
+                        <div class="dish__title"> Самса с мясом </div>
+                        <div class="price"> 60 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/samsassirom.jpg" alt="">
+                        <div class="dish__title"> Самса с сыром</div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/sosiskavteste.jpg" alt="">
+                        <div class="dish__title"> Сосиска в тесте </div>
+                        <div class="price"> 60 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/pirojokskapustoy.jpg" alt="">
+                        <div class="dish__title"> Пирожок с капустой </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/pirojokslukyaico.jpg" alt="">
+                        <div class="dish__title"> Пирожок с зеленым луком и яйцом</div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/vetchinaisir.jpg" alt="">
+                        <div class="dish__title"> Слойка с ветчиной и сыром </div>
+                        <div class="price"> 50 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/shtrudel.jpg" alt="">
+                        <div class="dish__title"> Штрудель яблочный </div>
+                        <div class="price"> 50 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/minipizza.jpg" alt="">
+                        <div class="dish__title"> Мини-пицца</div>
+                        <div class="price"> 70 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkastvorogom.jpg" alt="">
+                        <div class="dish__title"> Булочка с творогом</div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasdjemom.jpg" alt="">
+                        <div class="dish__title"> Булочка с джемом</div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasmakom.jpg" alt="">
+                        <div class="dish__title"> Булочка с маком </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkasizum.jpg" alt="">
+                        <div class="dish__title"> Булочка с изюмом</div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+                <div class="menu__body">
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkassaharom.jpg" alt="">
+                        <div class="dish__title"> Булочка с сахаром </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/bulochkaskoricey.jpg" alt="">
+                        <div class="dish__title"> Булочка с корицей </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/sirnik.jpg" alt="">
+                        <div class="dish__title"> Сырники </div>
+                        <div class="price"> 30 ₽ </div>
+                    </div>
+                    <div class="dish"> <img class="menu__img" src="assets/images/kruasan.jpg" alt="">
+                        <div class="dish__title"> Круассаны со сгущенкой </div>
+                        <div class="price"> 40 ₽ </div>
+                    </div>
+                </div><!-- Menu body div -->
+            </div><!-- 2nd week -->
+
+        </div> <!-- container -->
+    </section>
+    <section class="section section--abt" id="about">
+        <div class="container">
+            <div class="section__about">
+                <div class="about__item">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb61fadd304628dbf60cf23501c56e6a5a51af16135c177b3aee6b42ac0f7a1d&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="about__text">
+                    <div class="section__header">
+                        <h1 class="section__title"> О НАС </h1>
+                        <h1 class="map__title">
+                            <img class="map__icon" src="assets/images/map.png" alt="">
+                            <a href="https://yandex.ru/maps/?ll=26.969148%2C-62.192273&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D29.512%252C-79.475%26spn%3D360.000%252C21.871%26text%3DAntarctica&z=3.11" target="_blank">Показать на карте</a>
+                        </h1>
+                    </div>
+                    <div class="section__text">
+                        <p> Добро пожаловать в \\\/\/\/\/\////.
+                            <br>Мы работаем с 9:00-16:30, обеды с 12:00.
+                            <br>Доставка с 12:00-20:00.
+                            <br>Мы будем рады видеть вас
+                        </p>
+                    </div>
+                </div>
+                <!-- about text -->
+            </div>
+            <!-- section about -->
+        </div>
+        <!-- container -->
+    </section>
+    <footer class="section  section--end" id="end">
+        <div class="container">
+            <div class="end">
+                <div class="adress"> Наш адрес: ////....<br>
+                    Метро: ////// </div>
+                <div class="phone__num">+1 (234) 567-89-10</div>
+                <div class="copyright"> © 2020 Good Food inc. created by <span>Vaone</span> </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/app.js"> </script>
+</body>
+
+</html>

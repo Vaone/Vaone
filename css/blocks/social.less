@@ -1,0 +1,56 @@
+// main: ../style.less
+
+// ls__social
+
+.ls__social {
+    display: flex;
+    margin-bottom: 42px;
+    margin-top: 20px;
+}
+
+.social__link {
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    transition: transform .2s ease-in;
+    img {
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    }
+    
+    &:not(:first-child):hover {
+        transform: translateY(-5px);
+    }
+    &:first-child img {
+        border-radius: 0px;
+    }
+    &:first-child:hover .social__link__mail {
+        opacity: 1;
+        
+    }
+}
+
+.social__link__mail {
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 10px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    color: #333;
+    opacity: 0;
+    transition: opacity .5s linear;
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        left: 7%;
+        transform: translate(0%,140%) rotate(45deg);
+        z-index: 1;
+    }
+}

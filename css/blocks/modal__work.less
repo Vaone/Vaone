@@ -1,0 +1,125 @@
+// main: ../style.less
+
+.modal__work {
+    display: flex;
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.mw__description {
+    width: 50%;
+    padding: 3.4rem;
+    position: relative;
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.mw__title {
+    font-size: 2.12rem;
+    color: @blue;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.mw__text {
+    margin-bottom: 8.66rem;
+
+    font-size: .8rem;
+    line-height: 2;
+    color: fade(@blue, 80%);
+
+    span {
+        font-weight: 600;
+    }
+    @media (max-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+.mw__right-part {
+    width: 50%;
+    padding: 75px 10px 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.mw__row1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    img {
+        height:60px;
+        width:auto;
+        &:first-child {
+            height:120px;
+        }
+        &:last-child {
+            height: 80px;
+        }
+    }
+    
+}
+.mw__row2 img {
+    width: 100%;
+    transform: translateX(-50px);
+    @media (max-width: 768px) {
+        transform: translateX(0);
+    }
+}
+
+
+
+.mw__row3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.mw__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.8rem 1rem;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.mw__btn {
+    padding: 0;
+    background: none;
+    border: none;
+
+    font-family: inherit;
+    font-size: .94rem;
+    color: @black;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: color .2s linear;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: @blue;
+    }
+
+    &--prev {
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}

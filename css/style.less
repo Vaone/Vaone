@@ -1,0 +1,48 @@
+// compress: true
+
+@import "vars";
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: @blue;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+    &._lock {
+        overflow-y: hidden;
+    }
+}
+
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+        
+
+/* Block */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/nav";
+@import "blocks/section1";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/works";
+@import "blocks/cards";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/modal__work";
+@import "blocks/modal__contact";
